@@ -1,8 +1,8 @@
 let g:netrw_dirhistmax  =10
 let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/Users/michael/Work/paperlesspost/paperless-post'
-let g:netrw_dirhist_2='/Users/michael/Work/subtlefish'
-let g:netrw_dirhist_3='/Users/michael/Work/terminal'
-let g:netrw_dirhist_4='/Users/michael/Work/charty'
-let g:netrw_dirhist_5='/Applications/Twitter.app/Contents'
-let g:netrw_dirhist_6='/Users/michael/Work/paperlesspost/paperless-post'
+let g:netrw_dirhist_1='/Users/michael/code/beta/app/views/layouts'
+let g:netrw_dirhist_2='/Users/michael/code/beta'
+let g:netrw_dirhist_3='/Users/michael/code/beta/app'
+let g:netrw_dirhist_4='/Users/michael/code/beta/app/views'
+let g:netrw_dirhist_5='/Users/michael/code/beta/app/views/layouts'
+let g:netrw_dirhist_6='/Users/michael/code/beta/app/views'

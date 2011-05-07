@@ -1,0 +1,6 @@
+USAGE --
+  1. clone repo from ~
+  2. mv vim .vim
+  3. git submodule init
+  4. git submodule update
+  5. start macvim
