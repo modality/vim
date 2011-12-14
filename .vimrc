@@ -5,11 +5,22 @@ call pathogen#runtime_append_all_bundles()
 
 let mapleader=","
 
+" to reload- do :so $MYVIMRC
 nmap <silent> <leader>ev :e $MYVIMRC<CR>
-nmap <silent> <leader>sv :so $MYVIMRC<CR>
 nmap <silent> <leader>n  :NERDTreeToggle<CR> 
 nmap <silent> <leader>h  :split<cr>
 nmap <silent> <leader>v  :vsplit<cr>
+nmap <silent> ,/ :nohlsearch<cr>
+nmap <silent> <leader>f :set invfu<cr>
+nmap <silent> <leader>. :tabnext<cr>
+nmap <silent> <leader>m :tabprevious<cr>
+nmap <silent> <leader>w <C-w><up>
+nmap <silent> <leader>a <C-w><left>
+nmap <silent> <leader>s <C-w><down>
+nmap <silent> <leader>d <C-w><right>
+nmap <silent> U :redo<cr>
+
+nnoremap ; :
 
 set hidden
 
@@ -29,6 +40,8 @@ set smarttab
 set hlsearch
 set incsearch
 
+"set fuopt+=maxhorz
+
 set history=1000
 set undolevels=1000
 set wildignore=*.swp,*.pyc,*.bak,*.class,*.tmp
@@ -44,12 +57,15 @@ set expandtab
 
 set guifont=Anonymous\ Pro:h12
 
+let g:indent_guides_start_level = 2
+let g:indent_guides_guide_size  = 1
+
 if &t_Co >= 256 || has("gui_running")
-  colorscheme jellybeans 
+  colorscheme darkbone 
+  set guioptions=egmt
 endif
 
 if &t_Co > 2 || has("gui_running")
   syntax on
 endif
-
 
