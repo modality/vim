@@ -19,6 +19,7 @@ nmap <silent> <leader>a <C-w><left>
 nmap <silent> <leader>s <C-w><down>
 nmap <silent> <leader>d <C-w><right>
 nmap <silent> U :redo<cr>
+nmap <silent> <leader>cc :cclose<cr>
 
 nnoremap ; :
 
@@ -53,12 +54,18 @@ set nobackup
 set noswapfile
 
 filetype plugin indent on
+"au BufNewFile,BufRead *.as set filetype=actionscript
+au BufNewFile,BufRead *.as set syntax=actionscript
+
+
+
 set expandtab
 
 set guifont=Anonymous\ Pro:h12
 
 let g:indent_guides_start_level = 2
 let g:indent_guides_guide_size  = 1
+
 
 if &t_Co >= 256 || has("gui_running")
   colorscheme darkbone 
@@ -68,4 +75,5 @@ endif
 if &t_Co > 2 || has("gui_running")
   syntax on
 endif
+
 

@@ -4,6 +4,3 @@
 [submodule "bundle/ack.vim"]
   path = bundle/ack.vim
   url = https://github.com/mileszs/ack.vim.git
-[submodule "bundle/actionscript.vim"]
-	path = bundle/actionscript.vim
-	url = https://github.com/vim-scripts/actionscript.vim.git
