@@ -1,11 +1,2 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/Users/michael/Work/runner'
-let g:netrw_dirhist_2='/Users/michael/Sites/paperlesspost/pushparty'
-let g:netrw_dirhist_3='/Users/michael/Sites/paperlesspost/indoctrination'
-let g:netrw_dirhist_4='/Users/michael/Sites/paperlesspost/paperless-devtools'
-let g:netrw_dirhist_5='/Users/michael/Sites/paperlesspost/paperless-post'
-let g:netrw_dirhist_6='/Users/michael/Work/borges'
-let g:netrw_dirhist_7='/Users/michael/Sites/paperlesspost/paperless-post'
-let g:netrw_dirhist_8='/Users/michael/Sites/paperlesspost/paperless-devtools'
-let g:netrw_dirhist_9='/Users/michael/Work/saturnia'
+let g:netrw_dirhist_cnt =0
